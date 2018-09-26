@@ -31,7 +31,7 @@ $ python setup.py install
 
 ### Examples
 
-All examples can be found [here](https://github.com/arifistifik/newlib/contoh).
+All examples can be found [here](https://github.com/arifistifik/newlib/tree/master/contoh).
 
 ## Updates
 
