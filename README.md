@@ -43,3 +43,4 @@ $ pip install linepy --upgrade
 ## Author
 helloworld / [@helloworld]
 Fadhiil Rachman / [@fadhiilrachman](https://www.instagram.com/fadhiilrachman)
+# ![logo](/arifistifik.jpg) 
