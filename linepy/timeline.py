@@ -15,7 +15,9 @@ def loggedIn(func):
 class Timeline(Channel):
 
     def __init__(self):
-        Channel.__init__(self, self.channel, self.server.CHANNEL_ID['LINE_TIMELINE'], False)
+        if not self.channelId:
+            self.channelId = self.server.CHANNEL_ID['LINE_TIMELINE']
+        Channel.__init__(self, self.channel, self.channelId, False)
         self.tl = self.getChannelResult()
         self.__loginTimeline()
         
@@ -98,7 +100,7 @@ class Timeline(Channel):
             mid = self.profile.mid
         params = {'receiveMid': mid, 'postId': postId}
         url = self.server.urlEncode(self.server.LINE_TIMELINE_API, '/v39/post/sendPostToTalk.json', params)
-        r = self.server.getContent(url, data=data, headers=self.server.timelineHeaders)
+        r = self.server.getContent(url, headers=self.server.timelineHeaders)
         return r.json()
 
     @loggedIn
