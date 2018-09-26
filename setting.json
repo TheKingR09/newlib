@@ -1,0 +1,34 @@
+{
+    "autoAdd": false,
+    "autoAddMessage": "Halo @!, terimakasih telah menambahkan saya sebagai teman :3",
+    "autoJoin": false,
+    "autoJoinMessage": "Halo @!, makasih sudah invite saya",
+    "autoJoinTicket": false,
+    "autoRead": true,
+    "autoRespon": true,
+    "autoResponMessage": "Woi @!, gak usah tag tag -_-",
+    "changeGroupPicture": [],
+    "changePictureProfile": false,
+    "checkContact": true,
+    "checkPost": true,
+    "checkSticker": false,
+    "comment": "AUTOLIKE BY DPK BOTS INDONESIA",
+    "detectUnsend": false,
+    "keyCommand": "",
+    "likeon": true,
+    "limit": 2,
+    "mimic": {
+        "status": false,
+        "target": {}
+    },
+    "myProfile": {
+        "coverId": "",
+        "displayName": "",
+        "pictureStatus": "",
+        "statusMessage": ""
+    },
+    "selfbot": true,
+    "setKey": false,
+    "sidermember": "Cctv oit",
+    "sticker": true
+}
