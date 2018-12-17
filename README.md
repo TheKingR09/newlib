@@ -21,7 +21,7 @@ Or from the code:
 $ python setup.py install
 ```
 
-## Usage
+## Example
 
 ```python
 >>> from linepy import *
@@ -33,7 +33,7 @@ $ python setup.py install
 
 All examples can be found [here](https://github.com/TheKingR09/newlib/tree/master/contoh).
 
-## Updates
+## Update/upgrade
 
 From pip using the following command:
 ```sh
